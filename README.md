@@ -1,9 +1,8 @@
 # Usage
 
-Please check our [website](http://ev3rt-git.github.io/) for usage.
+Please check the original developers [website](http://ev3rt-git.github.io/) for usage.
 
-# Build status
+# Changes
 
-Status               | Platform
---------------       | ------ 
-[![Build Status](https://travis-ci.org/ev3rt-git/ev3rt-hrp2.svg?branch=master)](https://travis-ci.org/ev3rt-git/ev3rt-hrp2) | Ubuntu 14.04
+This is the Yellow Squad implementation of EV3RTOS hrp2 beta 7.3 version.
+It includes the addition of RB3rt library for c++ with labView like functions and color sensor raw reflected function.
