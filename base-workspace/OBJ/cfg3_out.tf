@@ -1,0 +1,13 @@
+$ cfg3_out.tf
+
+$tsize_meminib = 86$
+
+$DATASEC_LIST = { 3,298,38,323 }$
+$MO_DATASEC_LIST = { 3,298,38,323 }$
+$DATASEC_LIST_OPTIMIZED = 1$
+
+$BSSSEC_LIST = { 326,4,299,39,333 }$
+$MO_BSSSEC_LIST = { 326,4,299,39,333 }$
+$BSSSEC_LIST_OPTIMIZED = 1$
+
+
