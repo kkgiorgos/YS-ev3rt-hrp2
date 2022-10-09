@@ -57,7 +57,7 @@ public:
 
     int reflectedRaw()
     {
-        return ev3_color_sensor_get_raw_reflect(m_port);
+        return reflected();//ev3_color_sensor_get_raw_reflect(m_port);
     }
 
     /**

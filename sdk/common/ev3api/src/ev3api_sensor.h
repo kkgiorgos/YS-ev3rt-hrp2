@@ -97,6 +97,12 @@ typedef struct {
     uint16_t b; //!< \~English Blue value  \~Japanese 青
 } rgb_raw_t;
 
+typedef struct {
+    uint16_t l; //!< \~English Light value   \~Japanese 赤
+    uint16_t b; //!< \~English Back value \~Japanese 緑
+} ref_raw_t;
+
+
 /** 
  * \~English
  * \brief 	     Configure a sensor port.
@@ -163,7 +169,7 @@ colorid_t ev3_color_sensor_get_color(sensor_port_t port);
  */
 uint8_t ev3_color_sensor_get_reflect(sensor_port_t port);
 
-uint8_t ev3_color_sensor_get_raw_reflect(sensor_port_t port);
+void ev3_color_sensor_get_raw_reflect(sensor_port_t port, ref_raw_t *val);
 
 /**
  * \~English

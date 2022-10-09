@@ -1606,18 +1606,81 @@ const unsigned_t TOPPERS_cfg_static_api_263 = 263;
 #define MAIN_TASK	(<>)
 
 #line 7 "../workspace/project/app.cfg"
-const unsigned_t TOPPERS_cfg_valueof_tskatr_263 = ( unsigned_t )( TA_ACT ); const signed_t TOPPERS_cfg_valueof_itskpri_263 = ( signed_t )( TMIN_APP_TPRI + 1 ); const unsigned_t TOPPERS_cfg_valueof_stksz_263 = ( unsigned_t )( STACK_SIZE ); 
-#ifndef TOPPERS_cfg_inside_of_TDOM_APP
+const unsigned_t TOPPERS_cfg_valueof_tskatr_263 = ( unsigned_t )( TA_ACT ); const signed_t TOPPERS_cfg_valueof_itskpri_263 = ( signed_t )( TMIN_APP_TPRI + 1 ); const unsigned_t TOPPERS_cfg_valueof_stksz_263 = ( unsigned_t )( STACK_SIZE ); const unsigned_t TOPPERS_cfg_valueof_DOMAIN_264 = ( unsigned_t ) ( TDOM_APP );
+#line 8 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_264 = 264;
+#define OPEN_GRABBER_TASK	(<>)
 
 #line 8 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_valueof_tskatr_264 = ( unsigned_t )( TA_NULL ); const signed_t TOPPERS_cfg_valueof_itskpri_264 = ( signed_t )( HIGH_PRIORITY ); const unsigned_t TOPPERS_cfg_valueof_stksz_264 = ( unsigned_t )( STACK_SIZE ); const unsigned_t TOPPERS_cfg_valueof_DOMAIN_265 = ( unsigned_t ) ( TDOM_APP );
+#line 9 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_265 = 265;
+#define INIT_TASK	(<>)
+
+#line 9 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_valueof_tskatr_265 = ( unsigned_t )( TA_NULL ); const signed_t TOPPERS_cfg_valueof_itskpri_265 = ( signed_t )( LOW_PRIORITY ); const unsigned_t TOPPERS_cfg_valueof_stksz_265 = ( unsigned_t )( STACK_SIZE ); const unsigned_t TOPPERS_cfg_valueof_DOMAIN_266 = ( unsigned_t ) ( TDOM_APP );
+#line 10 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_266 = 266;
+#define CLOSE_RAMP_TASK	(<>)
+
+#line 10 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_valueof_tskatr_266 = ( unsigned_t )( TA_NULL ); const signed_t TOPPERS_cfg_valueof_itskpri_266 = ( signed_t )( LOW_PRIORITY ); const unsigned_t TOPPERS_cfg_valueof_stksz_266 = ( unsigned_t )( STACK_SIZE ); const unsigned_t TOPPERS_cfg_valueof_DOMAIN_267 = ( unsigned_t ) ( TDOM_APP );
+#line 11 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_267 = 267;
+#define WATER_GRABBER_TASK	(<>)
+
+#line 11 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_valueof_tskatr_267 = ( unsigned_t )( TA_NULL ); const signed_t TOPPERS_cfg_valueof_itskpri_267 = ( signed_t )( HIGH_PRIORITY ); const unsigned_t TOPPERS_cfg_valueof_stksz_267 = ( unsigned_t )( STACK_SIZE ); const unsigned_t TOPPERS_cfg_valueof_DOMAIN_268 = ( unsigned_t ) ( TDOM_APP );
+#line 12 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_268 = 268;
+#define PICK_BLOCK_TASK	(<>)
+
+#line 12 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_valueof_tskatr_268 = ( unsigned_t )( TA_NULL ); const signed_t TOPPERS_cfg_valueof_itskpri_268 = ( signed_t )( HIGH_PRIORITY ); const unsigned_t TOPPERS_cfg_valueof_stksz_268 = ( unsigned_t )( STACK_SIZE ); const unsigned_t TOPPERS_cfg_valueof_DOMAIN_269 = ( unsigned_t ) ( TDOM_APP );
+#line 13 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_269 = 269;
+#define EMPTY_WATER_RAMP_TASK	(<>)
+
+#line 13 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_valueof_tskatr_269 = ( unsigned_t )( TA_NULL ); const signed_t TOPPERS_cfg_valueof_itskpri_269 = ( signed_t )( LOW_PRIORITY ); const unsigned_t TOPPERS_cfg_valueof_stksz_269 = ( unsigned_t )( STACK_SIZE ); const unsigned_t TOPPERS_cfg_valueof_DOMAIN_270 = ( unsigned_t ) ( TDOM_APP );
+#line 14 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_270 = 270;
+#define BASKET_SCAN_TASK	(<>)
+
+#line 14 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_valueof_tskatr_270 = ( unsigned_t )( TA_NULL ); const signed_t TOPPERS_cfg_valueof_itskpri_270 = ( signed_t )( HIGH_PRIORITY ); const unsigned_t TOPPERS_cfg_valueof_stksz_270 = ( unsigned_t )( STACK_SIZE ); const unsigned_t TOPPERS_cfg_valueof_DOMAIN_271 = ( unsigned_t ) ( TDOM_APP );
+#line 15 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_271 = 271;
+#define ROOM_TASK_SCAN_TASK	(<>)
+
+#line 15 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_valueof_tskatr_271 = ( unsigned_t )( TA_NULL ); const signed_t TOPPERS_cfg_valueof_itskpri_271 = ( signed_t )( HIGH_PRIORITY ); const unsigned_t TOPPERS_cfg_valueof_stksz_271 = ( unsigned_t )( STACK_SIZE ); const unsigned_t TOPPERS_cfg_valueof_DOMAIN_272 = ( unsigned_t ) ( TDOM_APP );
+#line 16 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_272 = 272;
+#define END_TASK	(<>)
+
+#line 16 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_valueof_tskatr_272 = ( unsigned_t )( TA_NULL ); const signed_t TOPPERS_cfg_valueof_itskpri_272 = ( signed_t )( LOW_PRIORITY ); const unsigned_t TOPPERS_cfg_valueof_stksz_272 = ( unsigned_t )( STACK_SIZE ); 
+#ifndef TOPPERS_cfg_inside_of_TDOM_APP
+
+#line 17 "../workspace/project/app.cfg"
 #error syntax error
 #endif
 #undef TOPPERS_cfg_inside_of_TDOM_APP
 
 
-#line 10 "../workspace/project/app.cfg"
-const unsigned_t TOPPERS_cfg_static_api_264 = 264;
-const char TOPPERS_cfg_valueof_module_264[] = "app.o"; 
+#line 19 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_273 = 273;
+const char TOPPERS_cfg_valueof_module_273[] = "app.o"; 
+#line 20 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_274 = 274;
+const char TOPPERS_cfg_valueof_module_274[] = "methods.o"; 
+#line 21 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_275 = 275;
+const char TOPPERS_cfg_valueof_module_275[] = "routes.o"; 
+#line 22 "../workspace/project/app.cfg"
+const unsigned_t TOPPERS_cfg_static_api_276 = 276;
+const char TOPPERS_cfg_valueof_module_276[] = "tasks.o"; 
 #ifdef TOPPERS_cfg_inside_of_TDOM_KERNEL
 #error missing '}'
 #endif

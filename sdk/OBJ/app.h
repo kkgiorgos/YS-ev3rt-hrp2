@@ -42,6 +42,15 @@ extern "C" {
 #ifndef TOPPERS_MACRO_ONLY
 
 extern void	main_task(intptr_t);
+extern void open_grabber_task(intptr_t);
+extern void init_task(intptr_t);
+extern void close_ramp_task(intptr_t);
+extern void water_grabber_task(intptr_t);
+extern void pick_block_task(intptr_t);
+extern void empty_water_ramp_task(intptr_t);
+extern void basket_scan_task(intptr_t);
+extern void room_task_scan_task(intptr_t);
+extern void end_task(intptr_t);
 
 #endif /* TOPPERS_MACRO_ONLY */
 

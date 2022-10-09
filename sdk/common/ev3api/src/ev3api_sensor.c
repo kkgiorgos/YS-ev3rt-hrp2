@@ -189,20 +189,18 @@ error_exit:
     return 0;
 }
 
-uint8_t ev3_color_sensor_get_raw_reflect(sensor_port_t port) {
+void ev3_color_sensor_get_raw_reflect(sensor_port_t port, ref_raw_t *val){
 	ER ercd;
 
 //	lazy_initialize();
 	CHECK_PORT(port);
 	CHECK_COND(ev3_sensor_get_type(port) == COLOR_SENSOR, E_OBJ);
 
-	uint8_t val;
-	uart_sensor_fetch_data(port, REF_RAW, &val, sizeof(val));
-    return val;
+	uart_sensor_fetch_data(port, REF_RAW, val, sizeof(ref_raw_t));
 
 error_exit:
     syslog(LOG_WARNING, "%s(): ercd %d", __FUNCTION__, ercd);
-    return 0;
+    return;
 }
 
 uint8_t ev3_color_sensor_get_ambient(sensor_port_t port) {
